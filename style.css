@@ -1,0 +1,213 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container
+{
+    display: flex;
+}
+
+.side
+{
+    background-color:rgb(11, 11, 47);
+    width: 15vw;
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: 'Roboto Mono', monospace; */
+    height: 100vh ;
+    color: bisque;
+     transition: transfrom 0.3s ease-in-out;
+    /* font-style: italic; */
+    /* color:rgb(193, 190, 190); */
+  
+    /*background:scroll; */
+}
+.side nav{
+    padding: 45px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    
+  
+}
+.side nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.side nav li a{
+    text-decoration: none;
+    color: bisque;
+}
+.main
+{
+    /* background-color:rgb(193, 190, 190); */
+    width: 90vw;
+
+}
+.info{
+    /* background-color:rgb(116, 121, 137); */
+    height: 60vh;
+    width:60vw;
+    margin: 144px auto;
+    justify-content: space-around;
+    display:flex;
+}
+.devinfo ul{
+    list-style: none;
+ 
+}
+.devinfo{
+    display: flex;
+    flex-direction: column; 
+     align-items: center;
+}
+
+.devpic img{
+    width:200px;
+    /* margin:1cm; */
+    padding: 20px;
+    /* align-items:first baseline; */
+    align-items:initial;  
+}
+.hi{
+   
+    font-size: 60px;
+    font-family: 'Source Code Pro', monospace;
+   
+
+}
+.name{
+    font-size: 35px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:bold;
+
+}
+.about{
+    font-size: 25px;
+    margin-top: 2px;
+    font-family: 'Source Code Pro', monospace;
+}
+.but button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0 3px;
+}
+.from{
+    font-size: 20px;
+    margin-top: 2px;
+    font-family: 'Source Code Pro', monospace;
+}
+.but button:hover
+{
+    background-color: white;
+    color: dodgerblue ;
+}
+.but 
+{
+   margin-top: 20px;
+}
+.contactfrom{  
+  padding:  0 40px;
+  padding-top: 80px;
+  font-family: 'Roboto Slab', serif;
+
+}
+.contactfrom h1{
+    font-family: 'Source Code Pro', monospace;
+   /* padding: 12px; */
+}
+.contactfrom div{
+    padding:  8px 0;
+}
+
+.contactfrom div input{
+    width: 26vw;
+    border-radius: 1px;
+    margin: 6px 0 0 0 ;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    padding: 0 4px;
+    color: darkgrey;
+}
+.but b{
+    margin: 100px;
+}
+.skill{
+    width: 400px;
+    height: 8px;
+    background-color: red;
+    border:2px solid black;
+}
+.skillc{
+    padding: 12px;
+}
+.skilla{
+   display: flex;
+   align-items: center;
+}
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 70%; background-color:#808080;} /* Green */
+.css {width: 60%; background-color: #808080;} /* Blue */
+.js {width: 65%; background-color: #808080} /* Red */
+.php {width: 50%; background-color: #808080;} /* Dark Grey */
+
+.c {width: 80%; background-color: #808080;} /* Green */
+.cpp {width: 100%; background-color:#808080} /* Blue */
+.java{width: 80%; background-color: #808080;} /* Red */
+.dsa {width: 90%; background-color: #808080;} /* Dark Grey */
+.dbms {width: 70%; background-color: #808080;} /* Dark Grey */
+.hamburger{
+    position:absolute;
+    
+    top:2px;
+    left: 0px;
+
+}
+.cross{
+   
+    margin-left: 165px; 
+    /* top:2px */
+}
+
+
+
+
+
+
